@@ -29,6 +29,9 @@ end
 # for PostgreSQL
 gem 'pg'
 
+# Turbolinks makes following links in your web application faster.
+# Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
 
 # for MySQL at any all stages
 #group :mysql do
