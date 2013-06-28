@@ -9,7 +9,7 @@ describe 'AppsPages' do
   end  
 
   describe 'Word Cloud' do
-    before { visit word_cloud_path }
+    before { visit word_clouds_path }
     let(:heading) { 'Word Clouds' }
     let(:page_title) { 'Word Clouds' }
 

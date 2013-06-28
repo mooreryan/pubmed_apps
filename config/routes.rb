@@ -1,6 +1,11 @@
 PubmedApps::Application.routes.draw do
-  get "apps_pages/word_cloud"
   root to: 'static_pages#home'
+
+  match '/word_clouds', to: 'apps_pages#word_cloud', via: [:get, :post]
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

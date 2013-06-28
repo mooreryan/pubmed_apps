@@ -3,6 +3,12 @@ source 'https://rubygems.org'
 gem 'rails'
 gem 'bcrypt-ruby'
 gem 'jquery-rails'
+gem 'jqcloud-rails'
+gem "linguistics", "~> 2.0.2" # prolly wont use
+gem 'ruby-stemmer', '>=0.8.3', :require => 'lingua/stemmer' # prolly wont use
+gem 'treat'
+gem 'scalpel'
+gem 'lemmatizer'
 
 group :development, :test do
   gem 'sqlite3'
