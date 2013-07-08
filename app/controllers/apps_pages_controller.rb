@@ -5,7 +5,5 @@ class AppsPagesController < ApplicationController
   end
 
 
-  private
-  def 
 
 end
