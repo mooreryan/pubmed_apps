@@ -9,6 +9,7 @@ gem 'ruby-stemmer', '>=0.8.3', :require => 'lingua/stemmer' # prolly wont use
 gem 'treat'
 gem 'scalpel'
 gem 'lemmatizer'
+gem 'wordnet'
 
 group :development, :test do
   gem 'sqlite3'

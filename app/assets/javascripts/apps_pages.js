@@ -5,36 +5,38 @@
  * Create an array of word objects, each representing a word in the cloud
  */
 var word_array = [
-{text: "Numerous", weight: "4"},
-{text: "quantitative", weight: "31"},
-{text: "PCR", weight: "54"},
-{text: "assays", weight: "21"},
-
-{text: "microbial", weight: "226"},
-{text: "fecal", weight: "104"},
-{text: "source", weight: "42"},
-{text: "tracking", weight: "4"},
-{text: "MST", weight: "6"},
-{text: "developed", weight: "36"},
-
-{text: "evaluated", weight: "44"},
-
-{text: "recent", weight: "7"},
-{text: "years", weight: "12"},
-{text: "Widespread", weight: "1"},
-{text: "application", weight: "21"},
-
-{text: "hindered", weight: "1"},
-
-
-{text: "lack", weight: "5"},
-
-{text: "knowledge", weight: "18"},
-{text: "regarding", weight: "8"},
-
-{text: "geographical", weight: "3"},
-{text: "stability", weight: "11"},
-{text: "hence", weight: "6"},
+{text: "biodiversity", weight: "157"},
+{text: "rumen", weight: "119"},
+{text: "E. Coli", weight: "49"},
+{text: "dairy", weight: "48"},
+{text: "fecal", weight: "46"},
+{text: "diet", weight: "38"},
+{text: "16S", weight: "37"},
+{text: "metagenome", weight: "36"},
+{text: "calf", weight: "31"},
+{text: "disease state", weight: "31"},
+{text: "beef", weight: "29"},
+{text: "GIT", weight: "17"},
+{text: "carcass", weight: "6"},
+{text: "steer", weight: "5"},
+{text: "hide", weight: "5"},
+{text: "yak", weight: "5"},
+{text: "milk", weight: "5"},
+{text: "heifer", weight: "4"},
+{text: "lactating", weight: "3"},
+{text: "buffalo", weight: "2"},
+{text: "bull", weight: "2"},
+{text: "goat", weight: "2"},
+{text: "ewes", weight: "1"},
+{text: "postpartum", weight: "1"},
+{text: "dairy farmers", weight: "1"},
+{text: "GIT morphology", weight: "1"},
+{text: "teat", weight: "1"},
+{text: "udder", weight: "1"},
+{text: "feedlot", weight: "1"},
+{text: "lactating cows", weight: "1"},
+{text: "transition period", weight: "1"},
+{text: "biodivesity", weight: "1"}
     // ...as many words as you want
       ];
 

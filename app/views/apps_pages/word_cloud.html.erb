@@ -2,12 +2,17 @@
 
 <h1>Word Clouds</h1>
 
+<%= form_for(@text) do |f| %>
+  <%= f.label :content %>
+  <%= f.text_area :content, size: '50x10' %>
 
-<%= form_tag view_samples_path, method: 'get', remote: true do %>
-  <p>
-    <%= text_field_tag :search, params[:search] %>
-    <%= submit_tag "Search", name: nil, id: "search-button" %>
-  </p>
+  <%= f.submit 'Submit text' %>
 <% end %>
 
-<div id="word-cloud" style="width: 550px; height: 350px;"></div>
+<ul>
+  <% @texts.each do |record| %>
+    <li><%= record.content %></li>
+  <% end %>
+</ul>
+
+<div id="word-cloud" style="width: 1000px; height: 600px;"></div>

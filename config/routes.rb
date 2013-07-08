@@ -1,8 +1,8 @@
 PubmedApps::Application.routes.draw do
   root to: 'static_pages#home'
 
-  match '/word_clouds', to: 'apps_pages#word_cloud', via: [:get, :post]
-
+  match '/word_cloud', to: 'apps_pages#word_cloud', via: [:get, :post]
+  match '/texts', to: 'texts#new', via: [:get, :post]
 
 
 
